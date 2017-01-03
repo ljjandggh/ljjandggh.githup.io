@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 100px;
+				border: 1px solid;
+			}
+			ul li{
+				list-style: none;
+				width: 200px;
+				height: 30px;
+				border: 1px solid;
+			}
+		</style>
+		<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			window.jQuery||document.write("<script src='js/jquery_1.9.js'><\/script>")
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				$("li").click(function(){
+					$(this).css("background","#f00").siblings().css("background","#0f0");
+					var _index=$(this).index();
+					alert(_index);
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<input type="checkbox" name="" id="" value="ffff" />
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<script type="text/javascript">
+			var aDiv=document.getElementsByTagName("div");
+			for(var i=0,len=aDiv.length;i<len;i++){
+					aDiv[i].style.background="#f00";
+			}
+			var ipt=document.getElementsByTagName("input")[0];
+			alert(ipt.value);
+		</script>
+	</body>
+</html>
