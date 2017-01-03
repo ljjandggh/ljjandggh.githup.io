@@ -1,0 +1,129 @@
+#box{width: 100%;}
+/*首页图片切换*/
+#fp_one,#fp_two,#fp_three,#fp_four,#fp_five{height: 683px;overflow: hidden;}
+#fp_one{background: url(../img/0.jpg) no-repeat;background-size: 100%;}
+#fp_two{background: url(../img/1.png) no-repeat;background-size: 100%;}
+#fp_three{background: url(../img/2.png) no-repeat;background-size: 100%;}
+#fp_four{background: url(../img/3.jpg) no-repeat;background-size: 100%;}
+#fp_five{background: url(../img/4.png) no-repeat;background-size: 100%;}
+/*侧边栏*/
+#broadside{position: fixed;top: 0;left: 90px;font-family: "微软雅黑";}
+#logo{background-color: green; width: 93px;height: 64px;line-height: 80px;text-align: center;}
+/*首页*/
+#first,#about,#product,#develop,#news,#kong{width: 93px;height: 93px;padding: 5px 0 5px 0;
+			background-color: #fff;text-align: center;}
+#first{border-bottom: 1px solid #008000;}		
+#first div{background:url(../img/tubiao.png);width: 34px;height: 48px;background-position: -168px 230px;
+ 			background-size: 300%;margin-left:29px;margin-bottom: 10px;margin-top: 5px;}
+#first b{color: #008000;}
+/*关于蒙牛*/
+#about{border-bottom: 1px solid #DCDCDC;opacity: 0.6;}
+#about div{background:url(../img/tubiao.png);width: 34px;height: 48px;background-position: -202px 411px;
+ 			background-size: 300%;margin-left:29px;margin-bottom: 10px;margin-top: 5px;}
+#about b{color: #333333;}
+/*品牌与产品*/
+#product{border-bottom: 1px solid #DCDCDC;opacity: 0.6;}
+#product div{background:url(../img/tubiao.png);width: 34px;height: 48px;background-position: -202px 365px;
+ 			background-size: 300%;margin-left:29px;margin-bottom: 10px;margin-top: 5px;}
+#product b{color: #333333;}
+/*可持续发展*/
+#develop{border-bottom: 1px solid #DCDCDC;opacity: 0.6;}
+#develop div{background:url(../img/tubiao.png);width: 34px;height: 48px;background-position: -202px 319px;
+ 			background-size: 300%;margin-left:29px;margin-bottom: 10px;margin-top: 5px;}
+#develop b{color: #333333;}
+/*新闻与活动*/
+#news{border-bottom: 1px solid #CCCCCC;opacity: 0.6;}
+#news div{background:url(../img/tubiao.png);width: 34px;height: 48px;background-position: -202px 275px;
+ 			background-size: 300%;margin-left:29px;margin-bottom: 10px;margin-top: 5px;}
+#news b{color: #333333;}
+/*空div*/
+#kong{opacity: 0.6;}
+/*第一页水滴*/
+#water_one{position: relative;top: -220px;left: 120px;background-position: 156px 219px;
+			background: url(http://s.mengniu.com.cn/s/7.svg);width: 156px;height: 219px;
+			opacity: 0.6;background-size: 100%;display: inline-block;}
+#water_two{position: relative;background-position: 156px 219px;top:-450px;left: 80px;
+			background: url(http://s.mengniu.com.cn/s/9.svg);width: 156px;height: 219px;
+			opacity: 0.6;background-size: 100%;display: inline-block;}
+#water_three{position: relative;top:80px;left: 80px;background-position: 275px 386px;
+			background: url(http://s.mengniu.com.cn/s/8.svg);width: 275px;height: 386px;
+			opacity: 0.9;background-size: 100%;display: inline-block;}
+#water_four{position: relative;background-position: 156px 219px;top: 80px;left: 407px;
+			background: url(http://s.mengniu.com.cn/s/7.svg);width: 407px;height: 572px;
+			opacity: 0.6;background-size: 100%;display: inline-block;}	
+/*第二页水滴*/
+#water_one1{position: relative;top: -20px;left: 120px;background-position: 240px 337px;
+			background: url(http://s.mengniu.com.cn/s/7.svg);width: 240px;height: 337px;
+			opacity: 0.8;background-size: 100%;display: inline-block;}
+#water_one1 img{width: 240px;height: 390px;}
+#water_two1{position: relative;background-position: 156px 219px;top:-480px;left: 80px;
+			background: url(http://s.mengniu.com.cn/s/9.svg);width: 156px;height: 219px;
+			opacity: 0.6;background-size: 100%;display: inline-block;}
+#water_three1{position: relative;background-position: 156px 219px;top: 80px;left: 15px;
+			background: url(http://s.mengniu.com.cn/s/8.svg);width: 407px;height: 572px;
+			opacity: 0.8;background-size: 100%;display: inline-block;}
+#water_three1 img{margin: 50px;}
+#water_four1{position: relative;background-position: 127px 178px;top:80px;left: 230px;
+			background: url(http://s.mengniu.com.cn/s/9.svg);width: 127px;height: 178px;
+			opacity: 0.6;background-size: 100%;display: inline-block;}/*红*/
+/*第三页水滴*/
+#water_one2{position: relative;top: -390px;left:380px;background-position: 100px 140px;
+			background: url(http://s.mengniu.com.cn/s/8.svg);width: 100px;height: 140px;
+			opacity: 0.8;background-size: 100%;display: inline-block;}/*蓝*/	
+#water_two2{position: relative;background-position: 353px 496px;top:-118px;left: 350px;
+			background: url(http://s.mengniu.com.cn/s/9.svg);width: 353px;height: 496px;
+			opacity: 0.9;background-size: 100%;display: inline-block;}/*红*/
+#water_three2{position: relative;background-position: 211px 296px;top: 183px;left: 454px;
+			background: url(http://s.mengniu.com.cn/s/8.svg);width: 211px;height: 296px;
+			opacity: 0.8;background-size: 100%;display: inline-block;}/*蓝*/	
+#water_four2{position: relative;background-position: 182px 256px;top:-211px;left: 456px;
+			background: url(http://s.mengniu.com.cn/s/7.svg);width: 182px;height: 256px;
+			opacity: 0.6;background-size: 100%;display: inline-block;}/*黄*/
+/*关于蒙牛*/	
+#guanyu{background: url(../img/guanyu.jpg);height: 663px;
+			background-size: 100%;overflow: hidden;}
+#guanyu div{display: inline-block;margin-top: 180px;position: relative;}
+#sfq_one,#sfq_two,#sfq_three,#sfq_four{top: 560px;}
+#sfq_one div{margin-left:133px;width: 297px;height: 300px;background: orange;}
+#sfq_two div{margin-left:-8px;width: 297px;height: 300px;background: palevioletred;}	
+#sfq_three div{margin-left:-8px;width: 297px;height: 300px;background: deepskyblue;}	
+#sfq_four div{margin-left:-8px;width: 297px;height: 300px;background: limegreen;}	
+#sfq_one img{position: absolute;top: -83px;left: 133px;}
+#sfq_two img{position: absolute;top: -83px;left: -8px;}
+#sfq_three img{position: absolute;top: -83px;left: -8px;}
+#sfq_four img{position: absolute;top: -83px;left: -8px;}
+/*品牌与产品*/
+#pinpai{background: url(../img/1l.jpg);height: 663px;background-size: 100%;
+		overflow: hidden;}
+#pinpai_one{width: 520px;height: 652px;border: 5px solid #fff;margin-left: 180px;
+		overflow: hidden;display: inline-block;}
+#pinpai_two img{position: relative;left: -518px;top: -67px;}
+#pinpai_two{width: 520px;height: 652px;border: 5px solid #fff;
+		overflow: hidden;display: inline-block;margin-left: 40px;}
+#pinpai_one img{position: relative;left: -287px;}
+/*可持续发展*/
+#kcx div{height: 683px;display: inline-block;}
+#kcx div img{height: 663px;width: 562px;}
+#cx_one{width: 335px;overflow: hidden;}
+#cx_two{width: 335px;position: relative;left: -8px;overflow: hidden;}
+#cx_three {width: 335px;position: relative;left: -16px;overflow: hidden;}
+#cx_four {width: 337px;position: relative;left: -24px;overflow: hidden;}
+/*新闻*/
+#jianbian{background: url(../img/1l.jpg) no-repeat;
+		height: 663px;background-size: 100%;}
+.g1{position: relative;top: 82px;left: 360px;}
+.g2{position: relative;top: 274px;left: 365px;}
+.g3{position: relative;top:272px; left: -410px;}
+.g4{position: relative;left: 750px;top: -103px;}
+ul{border: 5px solid #32CD32;}
+li{list-style:none; padding:0; margin:0;}
+.g1,.g2,.g3,.g4{width:380px; height:180px; float:left; margin:0 5px 5px 0}
+li img{width:370px; height:170px;}
+
+
+
+
+
+		
+			
+						

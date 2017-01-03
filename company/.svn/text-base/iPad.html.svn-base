@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/iPad.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			window.jQuery||document.write("<script src='js/jquery_1.9.js'><\/script>")
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				$("img:first").mouseover(function(){
+					$("img:eq(1)").slideDown(2000);
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<div id="box">
+			<div id="tiltle">
+				<img src="img1/1.png"/>
+				<img src="img1/2.png" style="display: none;"/>
+				<p id="ipad">iPad Pro</p>
+				<p id="nd">&nbsp;你的下一台电脑，</p>
+				<p id="xg">&nbsp;现更以两种尺寸呈现。</p>
+				<p id="ljie"><a href="#">进一步了解 &gt;
+				</a>&nbsp;&nbsp;<a href="#">购买 &gt;</a></p>
+				<img src="img1/3.jpg" id="jpg3"/>
+				<div id="lihe">
+					<div class="line1"></div>
+					<img src="img1/4.png"/>
+					<div class="line1"></div>
+				</div>
+				<p id="dream">选一部理想的 iPad，在节日来临前及时送到。</p>
+				<div id="dream1">
+					<div class="mx">
+						<p class="qw">前往零售店</p>
+						<p class="qw1">到 Apple Store 零售店亲身体验各种 Apple 产品，</p>
+						<p class="qw1">我们还将为你解答各种问题。</p>
+						<p class="a"><a href="#">进一步了解 &gt;</a></p>
+					</div>
+					<div class="mx">
+						<p class="qw">免费送货</p>
+						<p class="qw1">享受免费送货上门服务，有关具体递送</p>
+						<p class="qw1">日期请于结账时查看。</p>
+						<p class="a"><a href="#">进一步了解 &gt;</a></p>
+					</div>
+				</div>
+				<div id="line2"></div>
+			</div>
+			<div id="apple">
+				<div id="app">
+					<p class="ipad">Apple Pencil</p>
+					<p class="nd">为 iPad Pro 而来</p>
+					<p class="ljie"><a href="#">进一步了解 &gt;
+					</a>&nbsp;&nbsp;<a href="#">购买 &gt;</a></p>
+				</div>
+			</div>
+			<div id="apple1">
+				<div id="app1">
+					<p class="ipad">Smart Keyboard</p>
+					<p class="nd">为 iPad Pro 而来</p>
+					<p class="ljie"><a href="#">进一步了解 &gt;
+					</a>&nbsp;&nbsp;<a href="#">购买 &gt;</a></p>
+				</div>
+			</div>
+			<div id="apple2">
+				<div id="app2">
+					<p class="ipad3"><img src="img1/8.png"/></p>
+					<p class="ipad1">有种红色，格外触动人心。</p>
+					<p class="ljie"><a href="#">进一步了解 &gt;</p>
+				</div>
+			</div>
+			<div id="billion">
+				<div style="background: #FAFAFA;width: 1366px;height: 150px;"></div>
+				<div id="bill">
+				</div>
+				<div id="bill_one">
+					<p class="bill1">上百万款为 iPad 而来的 App。</p>
+					<p class="bill2">你的 iPad 内置有多款强大 app 来帮你处理各种日常事务。
+						而 App Store 中更有上百万款精彩 app，均为 </p>
+					<p class="bill2">iPad 宽大精美的 Retina 显示屏而设计。你喜欢做的事，
+						几乎都有相应的 iPad app 能帮到你。</p>
+					<p class="ljie"><a href="#">访问 App Store &gt;</a></p>
+				</div>
+			</div>
+			<div id="mini">
+				<p class="mini">iPad mini 4</p>
+				<p class="ljie"><a href="#">进一步了解 &gt;
+					</a>&nbsp;<a href="#">购买 &gt;</a></p>
+			</div>
+			<div id="min_one">
+				<div id="mini1"></div>
+			</div>
+			<div id="jixing">
+				<p class="mini">iPad 机型比较。</p>
+				<p class="mini1">小身型，大有身手</p>
+				<p class="ljie" style="margin-bottom: 50px;">
+					<a href="#">找到适合你的 iPad &gt;</a></p>
+				<img src="img1/12.png"/>
+			</div>
+			<div id="paijian">
+				<div id="paijian1">
+					<p class="mini">iPad 配件</p>
+					<p >众多出色工具，助你充分发掘 iPad 的精彩。</p>
+					<p class="ljie" style="margin-bottom: 50px;">
+						<a href="#">选购 iPad 配件 &gt;</a></p>
+				</div>
+				<img src="img1/13.jpg" width="1400px" height="800px"/>
+			</div>
+			<div id="bottom">
+				<img src="img1/11.png"/>
+			</div>
+		</div>
+	</body>
+</html>

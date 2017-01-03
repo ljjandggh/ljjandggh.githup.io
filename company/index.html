@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>蒙牛</title>
+		<link rel="stylesheet" type="text/css" href="css/mengniu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/jquery.imgscroll.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#fullpage").fullpage({
+					'navigationPosition': 'right',
+					'navigation':'true',
+			//		这两句是关键
+					easing:"easeInOutBack",
+					css3:false,
+					afterLoad: function(anchorLink, index){//滚动到的页面执行的回调
+						if(index==1){
+							$("#water_one").animate({top:"-100px"},1000);
+							$("#water_two").animate({top:"-330px"},1000);
+							$("#water_three").animate({top:"100px"},1000);
+							$("#water_four").animate({top:"120px"},1000);
+							$("#first").css("opacity","1");
+							$("#first>div").css("background-position","-168px 230px");
+							$("#first>b").css("color","#008000");
+						};
+						if(index==2){
+							$("#first").css("opacity","1");
+							$("#first>div").css("background-position","-168px 230px");
+							$("#first>b").css("color","#008000");
+							$("#water_one1").animate({top:"60px"},1000);
+							$("#water_two1").animate({top:"-360px"},1000);
+							$("#water_three1").animate({top:"100px"},1000);
+							$("#water_four1").animate({top:"120px"},1000);
+						};
+						if(index==3){
+							$("#water_one2").animate({top:"-290px"},1000);
+							$("#water_two2").animate({top:"-18px"},1000);
+							$("#water_three2").animate({top:"153px"},1000);
+							$("#water_four2").animate({top:"-211px"},1000);
+							$("#first").css("opacity","1");
+							$("#first>div").css("background-position","-168px 230px");
+							$("#first>b").css("color","#008000");
+						};
+						if(index==4){
+							$("#first").css("opacity","0.6");
+							$("#first>div").css("background-position","-203px 230px");
+							$("#first>b").css("color","#333333");
+							$("#about").css("opacity","1");
+							$("#about>div").css("background-position","-237px 411.5px");
+							$("#about>b").css("color","#FFA500");
+							$("#sfq_one").animate({top:"0px"},200,function(){
+								$("#sfq_two").animate({top:"0px"},200,function(){
+									$("#sfq_three").animate({top:"0px"},200,function(){
+										$("#sfq_four").animate({top:"0px"},200)
+									});
+								});
+							});
+						};
+						if(index==5){
+							$("#product").css("opacity","1");
+							$("#product>div").css("background-position","-237px 365px");
+							$("#product>b").css("color","#DB7093");
+							$("#pinpai_one").hide().fadeIn(1000);
+							$("#pinpai_two").hide().fadeIn(1000);
+						};
+						if(index==6){
+							$("#develop").css("opacity","1");
+							$("#develop>div").css("background-position","-237px 320px");
+							$("#develop>b").css("color","#00BFFF");
+							$("#cx_one").mouseenter(function(){
+								$(this).css("width","562px");
+								$("#kcx>div:not('#cx_one')").css("width","260px");
+							});
+							$("#cx_two").mouseenter(function(){
+								$(this).css("width","562px");
+								$("#kcx>div:not('#cx_two')").css("width","260px");
+							});
+							$("#cx_three").mouseenter(function(){
+								$(this).css("width","562px");
+								$("#kcx>div:not('#cx_three')").css("width","260px");
+							});
+							$("#cx_four").mouseenter(function(){
+								$(this).css("width","562px");
+								$("#kcx>div:not('#cx_four')").css("width","260px");
+							});
+						};
+						if(index==7){
+							imgScroll.rolling({
+								name:'g1',
+								width:'380px',
+								height:'180px',
+								direction:'top',
+								speed:10,
+								addcss:true
+							});
+							
+							imgScroll.rolling({
+								name:'g2',
+								width:'380px',
+								height:'180px',
+								direction:'left',
+								speed:20,
+								addcss:true
+							});
+							
+							imgScroll.rolling({
+								name:'g3',
+								width:'380px',
+								height:'180px',
+								direction:'bottom',
+								speed:30,
+								addcss:true
+							});
+							
+							imgScroll.rolling({
+								name:'g4',
+								width:'380px',
+								height:'180px',
+								direction:'right',
+								speed:40,
+								addcss:true
+							});
+							$("#news").css("opacity","1");
+							$("#news>div").css("background-position","-237px 275px");
+							$("#news>b").css("color","#32CD32");
+						}
+					},
+					onLeave: function(index, direction){ //离开之后回到原位
+						if(index==1){
+							$("#water_one").animate({top:"-220px"},1000);
+							$("#water_two").animate({top:"-450px"},1000);
+							$("#water_three").animate({top:"30px"},1000);
+							$("#water_four").animate({top:"50px"},1000);
+						};
+						if(index==2){
+							$("#water_one1").animate({top:"-20px"},1000);
+							$("#water_two1").animate({top:"-480px"},1000);
+							$("#water_three1").animate({top:"30px"},1000);
+							$("#water_four1").animate({top:"50px"},1000);
+						};
+						if(index==3){
+							$("#water_one2").animate({top:"-390px"},1000);
+							$("#water_two2").animate({top:"-118px"},1000);
+							$("#water_three2").animate({top:"133px"},1000);
+							$("#water_four2").animate({top:"-311px"},1000);
+						};
+						if(index==4){
+							$("#about").css("opacity","0.6");
+							$("#about>div").css("background-position","-202px 411px");
+							$("#about>b").css("color","#333333");
+							$("#sfq_one").animate({top:"560px"},200,function(){
+								$("#sfq_two").animate({top:"560px"},200,function(){
+									$("#sfq_three").animate({top:"560px"},200,function(){
+										$("#sfq_four").animate({top:"560px"},200)
+									});
+								});
+							});
+						};
+						if(index==5){
+							$("#product").css("opacity","0.6");
+							$("#product>div").css("background-position","-202px 365px");
+							$("#product>b").css("color","#333333");
+							$("#pinpai_one").show().fadeOut(1000);
+							$("#pinpai_two").show().fadeOut(1000);
+						};
+						if(index==6){
+							$("#develop").css("opacity","0.6");
+							$("#develop>div").css("background-position","-202px 320px");
+							$("#develop>b").css("color","#333333");
+						};
+						if(index==7){
+							$("#news").css("opacity","0.6");
+							$("#news>div").css("background-position","-202px 275px");
+							$("#news>b").css("color","#333333");
+						}
+					}
+					/*continuousVertical: true*///到最后一屏后滑动到第一屏
+				});
+			})
+		</script>
+	</head>
+	<body>
+	<div id="box">
+		<div id="fullpage">
+			<!--首页-->
+			<div class="section">
+				<div id="fp_one">	
+					<div id="water_one">
+					</div>
+					<div id="water_two">
+					</div>
+					<div id="water_three">
+						<img src="img/shui2.png"/>
+					</div>
+					<div id="water_four">
+						<img src="img/shui4.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div id="fp_two">
+					<div id="water_one1">
+						<img src="img/shui4.png"/>
+					</div>
+					<div id="water_two1">
+					</div>
+					<div id="water_three1">
+						<img src="img/shui1.png"/>
+					</div>
+					<div id="water_four1">
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div id="fp_three">
+					<div id="water_one2">
+					</div>
+					<div id="water_two2">
+						<img src="img/shui3.png"/>
+					</div>
+					<div id="water_three2">
+					</div>
+					<div id="water_four2">
+					</div>
+				</div>
+			</div>
+			<!--关于蒙牛-->
+			<div class="section">
+				<div id="guanyu">
+					<div id="sfq_one">
+						<div></div>
+						<img src="img/bJ.png"/>
+					</div>
+					<div id="sfq_two">
+						<div></div>
+						<img src="img/b3L.png"/>
+					</div>
+					<div id="sfq_three">
+						<div></div>
+						<img src="img/b2.png"/>
+					</div>
+					<div id="sfq_four">
+						<div></div>
+						<img src="img/bP1.png"/>
+					</div>
+				</div>
+			</div>
+			<!--品牌与产品-->
+			<div class="section">
+				<div id="pinpai">
+					<div id="pinpai_one"><img src="img/1m.jpg"/></div>
+					<div id="pinpai_two"><img src="img/1p.jpg"/></div>
+				</div>
+			</div>
+			<!--可持续发展-->
+			<div class="section">
+				<div id="kcx">
+					<div id="cx_one">
+						<img src="img/U.jpg"/>
+					</div>
+					<div id="cx_two">
+						<img src="img/V.jpg"/>
+					</div>
+					<div id="cx_three">
+						<img src="img/1U.jpg"/>
+					</div>
+					<div id="cx_four">
+						<img src="img/1V.jpg"/>
+					</div>
+				</div>
+			</div>
+			<!--新闻与活动-->
+			<div class="section">
+				<div id="jianbian">
+					<div class="g1">
+						<ul>
+						    <li><img src="img/0.jpg"></li>
+						    <li><img src="img/1.png"></li>
+						    <li><img src="img/1m.jpg"></li>
+						    <li><img src="img/1p.jpg"></li>
+						    <li><img src="img/1U.jpg"></li>
+					    </ul>
+					</div>
+					<div class="g2">
+						<ul>
+						   <li><img src="img/0.jpg"></li>
+						    <li><img src="img/1.png"></li>
+						    <li><img src="img/1m.jpg"></li>
+						    <li><img src="img/1p.jpg"></li>
+						    <li><img src="img/1U.jpg"></li>
+					    </ul>
+					</div>
+					<div class="g3">
+						<ul>
+				    	<li><img src="img/0.jpg"></li>
+						    <li><img src="img/1.png"></li>
+						    <li><img src="img/1m.jpg"></li>
+						    <li><img src="img/1p.jpg"></li>
+						    <li><img src="img/1U.jpg"></li>
+					    
+					    </ul>
+					</div>
+					<div class="g4">
+						<ul>
+					    	<li><img src="img/0.jpg"></li>
+						    <li><img src="img/1.png"></li>
+						    <li><img src="img/1m.jpg"></li>
+						    <li><img src="img/1p.jpg"></li>
+						    <li><img src="img/1U.jpg"></li>
+					    </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="broadside"><!--侧边栏-->
+		<div id="logo">
+			<img src="img/logo.png"/>
+		</div>
+		<div id="first">
+			<div></div>
+			<b>首页</b><br />
+		</div>
+		<div id="about">
+			<div></div>
+			<b>关于蒙牛</b><br />
+		</div>
+		<div id="product">
+			<div></div>
+			<b>品牌与产品</b><br />
+		</div>
+		<div id="develop">
+			<div></div>
+			<b>可持续发展</b><br />
+		</div>
+		<div id="news">
+			<div></div>
+			<b>新闻与活动</b><br />
+		</div>
+		<div id="kong">
+		</div>
+	</div>
+	</body>
+</html>

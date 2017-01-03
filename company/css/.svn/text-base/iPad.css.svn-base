@@ -1,0 +1,51 @@
+#box{width: 100%;background: #fafafa;}
+#tiltle{width: 1366px;margin: 0 auto;}
+#ipad{width: 1366px;text-align: center;margin-top: 50px;margin-bottom: 10px;
+		font-size: 75px;font-weight: bolder;}
+#nd,#xg,#dream{width: 1366px;text-align: center;font-size: 50px;color: #333333;
+	margin-bottom: 20px;}
+#ljie{width: 1366px;text-align: center;font-size: 30px;margin-bottom: 150px;}
+a{text-decoration: none;}
+#jpg3,#dream1{width: 1366px;margin: 0 auto;}
+/*礼盒*/
+#lihe{width: 1366px;margin: 0 auto;padding: 20px 100px;}
+.line1{width: 560px;display: inline-block;border-top: 2px solid #CCCCCC;height: 30px;}
+#dream{margin-bottom: 50px;}
+#dream1{padding: 0 200px;}
+.qw{font-size: 30px;color: #333333;}
+#dream1 p{width: 460px;text-align: center;margin: 10px;}
+.qw1{font-size: 20px;color: #333333;}
+.mx{padding: 0 15px;display: inline-block;}
+.a{font-size: 20px;padding: 20px 0;}
+#line2{width: 1200px;margin: 0 auto;height: 50px;border-bottom: 2px solid #CCCCCC;}
+#apple{background: url(../img1/5.jpg)no-repeat;height: 790px;
+	margin: 0 auto;background-size: 100%;background-position: 487px 120px;}
+#apple1{background: url(../img1/6.png)no-repeat;height: 850px;
+	margin: 0 auto;background-position: -187px 0;}
+#apple2{background: url(../img1/7.png)no-repeat;height: 600px;overflow: ;
+	margin: 0 auto;}
+	/*apple pecil*/
+#app{width: 600px;text-align: center;margin-left: 200px;margin-top: 90px;}
+#app1{width: 600px;text-align: center;margin-left: 600px;margin-top: 0px;}
+#app2{width: 600px;text-align: center;margin-left: 700px;margin-top: 20px;}
+.ipad{font-size: 75px;font-weight: 600;padding-top: 100px;padding-bottom:10px ;}
+.ipad1{font-size: 50px;}
+.ipad3{padding-top: 150px;}
+.nd{font-size: 45px;color: #333333;margin: 20px auto;}
+.ljie{font-size: 25px;}
+/*上百万*/
+#billion{height: 470px;width: 100%;margin: 0 auto;}
+#bill{background: url(../img1/9.jpg)no-repeat;width: 2249px;height: 319px;
+	background-position: -432px 0px;}
+#bill_one{text-align: center;width: 1366px;position: relative;top: -390px;}
+.bill1{font-size: 40px;padding-bottom: 30px;color: #333333;}
+.bill2{font-size: 20px;color: #333333;padding-bottom: 10px;}
+#mini,#jixing{width: 1366px;text-align: center;}
+.mini{font-size: 50px;font-weight: bold;color: #333333;margin-top: 30px;}
+.mini1{font-size: 35px;color: #333333;margin-bottom: 10px;}
+#min_one{background:white;width: 100%;height: 1000px;}
+#mini1{background: url(../img1/10.jpg)no-repeat;width: 1215px;height: 1000px;
+	margin: 20px auto;background-position: 0 20px;}
+/*paijian*/
+#paijian{width: 1400px;height: 800px;}
+#paijian1{width: 1366px;text-align: center;position: relative;top: 400px;}
